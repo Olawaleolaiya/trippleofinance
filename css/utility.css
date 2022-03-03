@@ -9,14 +9,16 @@
 }
 
 /* button */
-
-
-
-
 .btn {
     cursor: pointer;
     display: inline-block;
+    padding: 10px 30px;
+    background-color: #4D9D5A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
+
 
 .btn:hover {
     opacity: 0.9;
@@ -27,6 +29,7 @@
     background: #4D9D5A;
     color: #fff;
 }
+
 .btn-secondary {
     background: #5C55AE;
     color: #fff;
@@ -40,3 +43,4 @@
     background: #f4f4f4;
     color: #333;
 }
+

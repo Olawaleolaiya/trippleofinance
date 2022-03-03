@@ -70,9 +70,9 @@ img {
 
 /* header */
 .hero {
-    background: url(/images/showcase.jpg) no-repeat center center/cover;
+    background: url(/images/showcase3.jpg) no-repeat center center/cover;
     height: 100vh;
-    color: #fff;
+    color: #f4f4f4f4;
     position: relative;
 }
 
