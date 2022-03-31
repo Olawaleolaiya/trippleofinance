@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
+html {
+   scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
     padding: 0%;
@@ -191,6 +195,9 @@ img {
     margin-right: 30px;
 }
 
+
+
+
 /* mobile */
 @media(max-width: 768px) {
     .navbar{
@@ -209,10 +216,15 @@ img {
     .flex-items   {
         flex-direction: column;
     }
-    .flex-columns .row  {
-        display: block;
+    .flex-columns .column   {
         flex: 100%;
-        max-width: 100%;
+        width: 100%;
+        
+    }
+
+    .flex-grid .column {
+        flex: 100%;
+        width: 100%;
     }
 
     .team img {
